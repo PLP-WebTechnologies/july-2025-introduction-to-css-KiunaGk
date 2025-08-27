@@ -1,0 +1,103 @@
+/* ===============================
+   General Reset & Base Styles
+   =============================== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* ===============================
+   Header Styling
+   =============================== */
+.header {
+    background: linear-gradient(135deg, #5d3fd3, #8e77ff);
+    color: white;
+    text-align: center;
+    padding: 30px; /* Box Model: padding creates space inside the header */
+}
+
+.subtitle {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* ===============================
+   Navigation Bar
+   =============================== */
+.navbar {
+    background: #333;
+    padding: 12px; /* Box Model: inner spacing for nav links */
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px; /* Box Model: margin spaces links apart */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #8e77ff;
+}
+
+/* ===============================
+   Main Container
+   =============================== */
+.container {
+    display: flex;
+    gap: 20px;       /* Spacing between cards */
+    padding: 20px;   /* Box Model: inner spacing around content */
+    flex-wrap: wrap; /* Makes layout responsive */
+}
+
+/* ===============================
+   Card Sections (Box Model Demo)
+   =============================== */
+.card {
+    background: white;
+    border: 2px solid #ccc;    /* Box Model: border defines the box edge */
+    padding: 20px;             /* Inner spacing inside the box */
+    margin: 10px;              /* Outer spacing around the box */
+    flex: 1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    min-width: 250px;
+}
+
+.card h2 {
+    color: #5d3fd3;
+}
+
+/* ===============================
+   Button Styling
+   =============================== */
+.btn {
+    background: #5d3fd3;
+    color: white;
+    border: none;
+    padding: 10px 15px;   /* Box Model: padding makes the button clickable & spacious */
+    margin-top: 10px;     /* Margin separates button from content above */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: #3a24a8;
+}
+
+/* ===============================
+   Footer
+   =============================== */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px; /* Box Model: padding inside footer */
+    margin-top: 20px; /* Box Model: margin separates footer from main content */
+}
